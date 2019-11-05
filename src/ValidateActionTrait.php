@@ -62,6 +62,10 @@ trait ValidateActionTrait
      */
     public function createMethodById(string $id)
     {
+        if(empty($id)) {
+            $id = 'index';
+        }
+
         return 'action' . Inflector::id2camel($id);
     }
 }
