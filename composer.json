@@ -1,7 +1,12 @@
 {
-    "name": "yii2-webivan1/yii2-validate-action-params",
+    "name": "denst/yii2-validate-action-params",
     "description": "Extension Yii2",
-    "keywords": ["yii2", "inject action", "action validate", "DI action"],
+    "keywords": [
+        "yii2",
+        "inject action",
+        "action validate",
+        "DI action"
+    ],
     "type": "yii2-extension",
     "license": "MIT",
     "authors": [
@@ -19,18 +24,18 @@
     },
     "autoload": {
         "psr-4": {
-            "webivan\\validateAction\\": "src"
+            "denst\\validateAction\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "webivan\\validateAction\\tests\\": "tests"
+            "denst\\validateAction\\tests\\": "tests"
         }
     },
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/webivan1/validateAction.git"
+            "url": "https://github.com/denst/validateAction.git"
         }
     ]
 }
